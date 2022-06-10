@@ -3,11 +3,12 @@
 
 import numpy as np
 
-ar1 = np.matrix([1,2,3,4,5,6], dtype="int")
-ar2 = np.matrix([[1,2,3],[4,5,6]], dtype="int")
-ar3 = np.matrix([[1,2],[3,4],[5,6]], dtype="int")
-ar4 = np.matrix([[1],[2],[3],[4],[5],[6]], dtype="int")
+ar1 = np.array(range(1,7), dtype="int").reshape(-1, 6)
+ar2 = np.array(range(1,7), dtype="int").reshape(2, 3)
+ar3 = np.array(range(1,7), dtype="int").reshape(3, 2)
+ar4 = np.array(range(1,7), dtype="int").reshape(6, -1)
 
+# test
 print(ar1)
 print(ar2)
 print(ar3)
