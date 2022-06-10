@@ -1,5 +1,5 @@
 # 2. ar1, ar2 데이터의 해당하는 numpy ndarray를 만들고,
-# shape와 ndim을 출력하시오.
+# dtype와 ndim을 출력하시오.
 
 import numpy as np
 
